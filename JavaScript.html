@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+	//variable i is use to declare as an array that have 10 element
+      var i = [1,2,3,4,5,6,7,8,9,10];
+	  //array fruits have 10 element
+      var fruits = ["Apple","Banana","Cherry","Grape","Kiwi",
+                    "Lemon","Mango","Orange","Pear","Strawberry"];
+		//for each loop to loop through every fruit's array
+      i.forEach(function(fruit){
+		//if fruit's array % 2 equals to 1
+        if(fruit % 2 === 1){
+		//output the function fruit
+          document.write(fruit);
+        }
+      });
+    </script>
+</body></html>
